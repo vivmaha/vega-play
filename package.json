@@ -1,0 +1,35 @@
+{
+  "name": "vega-play",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivmaha/vega-play.git"
+  },
+  "author": "V Maharajh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vivmaha/vega-play/issues"
+  },
+  "homepage": "https://github.com/vivmaha/vega-play#readme",
+  "dependencies": {
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-vega": "^7.4.4",
+    "vega": "^5.21.0",
+    "vega-lite": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/react-dom": "^17.0.11",
+    "parcel": "^2.3.1"
+  },
+  "alias": {
+    "process": false,
+    "buffer": false
+  }
+}
